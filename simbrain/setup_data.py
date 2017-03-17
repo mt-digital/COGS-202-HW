@@ -34,7 +34,7 @@ def main(N_obs):
             ]
 
     np.savetxt('input.csv', I, fmt='%i', delimiter=',')
-    np.savetxt('output.csv', O, fmt='%i', delimiter=',')
+    np.savetxt('target.csv', O, fmt='%i', delimiter=',')
     np.savetxt('transition.csv', T, fmt='%1.2f', delimiter=',')
 
 
